@@ -1,0 +1,132 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light gray background color */
+    color: #333; /* Dark text color */
+}
+
+/* Container for centering content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+header .logo {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style for the navigation bar */
+nav {
+    background-color: #333; /* Dark background color */
+    overflow: hidden;
+}
+
+/* Style for the navigation bar links */
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent; /* Add transparent border */
+    transition: border-bottom-color 0.3s; /* Add transition for border color */
+}
+
+/* Hover effect for the navigation bar links */
+nav a:hover {
+    background-color: #ddd; /* Light background color on hover */
+    color: black;
+    border-bottom-color: #fff; /* Change border color on hover */
+}
+
+/* Main content styling */
+main {
+    padding: 20px 0;
+}
+
+section {
+    padding: 20px 0;
+}
+
+.menu-item {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    vertical-align: top;
+    background-color: #fff; /* White background color */
+    border-radius: 5px; /* Add border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    overflow: hidden;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.menu-item h3 {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu-item p {
+    padding: 0 10px 10px;
+    text-align: justify;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .social-media a {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .menu-item {
+        width: 100%;
+        margin: 0;
+    }
+}
